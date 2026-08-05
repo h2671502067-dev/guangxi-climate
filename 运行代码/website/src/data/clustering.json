@@ -1,0 +1,159 @@
+{
+  "optimal_k": 4,
+  "months": [
+    {
+      "month": 1,
+      "cluster": 2,
+      "temp": 11.6,
+      "precip": 51.6,
+      "humidity": 75.8,
+      "wind": 13.96,
+      "sunshine": 5.95,
+      "pc1": -2.52,
+      "pc2": -0.579
+    },
+    {
+      "month": 2,
+      "cluster": 2,
+      "temp": 14.29,
+      "precip": 48.0,
+      "humidity": 77.0,
+      "wind": 14.33,
+      "sunshine": 5.52,
+      "pc1": -2.349,
+      "pc2": -0.913
+    },
+    {
+      "month": 3,
+      "cluster": 2,
+      "temp": 18.34,
+      "precip": 82.6,
+      "humidity": 77.5,
+      "wind": 14.28,
+      "sunshine": 6.12,
+      "pc1": -1.658,
+      "pc2": -0.928
+    },
+    {
+      "month": 4,
+      "cluster": 2,
+      "temp": 22.39,
+      "precip": 119.2,
+      "humidity": 77.7,
+      "wind": 13.72,
+      "sunshine": 7.7,
+      "pc1": -0.666,
+      "pc2": -0.484
+    },
+    {
+      "month": 5,
+      "cluster": 0,
+      "temp": 25.33,
+      "precip": 223.6,
+      "humidity": 81.2,
+      "wind": 12.74,
+      "sunshine": 8.47,
+      "pc1": 1.092,
+      "pc2": -0.763
+    },
+    {
+      "month": 6,
+      "cluster": 0,
+      "temp": 27.03,
+      "precip": 286.2,
+      "humidity": 86.1,
+      "wind": 12.54,
+      "sunshine": 8.19,
+      "pc1": 2.239,
+      "pc2": -1.453
+    },
+    {
+      "month": 7,
+      "cluster": 0,
+      "temp": 27.66,
+      "precip": 229.9,
+      "humidity": 85.2,
+      "wind": 12.34,
+      "sunshine": 10.74,
+      "pc1": 2.247,
+      "pc2": -0.218
+    },
+    {
+      "month": 8,
+      "cluster": 3,
+      "temp": 27.39,
+      "precip": 231.3,
+      "humidity": 84.4,
+      "wind": 10.54,
+      "sunshine": 11.29,
+      "pc1": 2.913,
+      "pc2": 0.394
+    },
+    {
+      "month": 9,
+      "cluster": 3,
+      "temp": 25.98,
+      "precip": 157.7,
+      "humidity": 82.2,
+      "wind": 11.25,
+      "sunshine": 12.04,
+      "pc1": 1.901,
+      "pc2": 1.013
+    },
+    {
+      "month": 10,
+      "cluster": 1,
+      "temp": 22.18,
+      "precip": 87.0,
+      "humidity": 78.7,
+      "wind": 12.94,
+      "sunshine": 12.51,
+      "pc1": 0.113,
+      "pc2": 1.448
+    },
+    {
+      "month": 11,
+      "cluster": 1,
+      "temp": 17.93,
+      "precip": 63.1,
+      "humidity": 77.4,
+      "wind": 13.31,
+      "sunshine": 11.4,
+      "pc1": -0.828,
+      "pc2": 1.233
+    },
+    {
+      "month": 12,
+      "cluster": 1,
+      "temp": 12.72,
+      "precip": 32.7,
+      "humidity": 73.0,
+      "wind": 14.3,
+      "sunshine": 10.56,
+      "pc1": -2.484,
+      "pc2": 1.25
+    }
+  ],
+  "silhouettes": {
+    "2": 0.4689,
+    "3": 0.4261,
+    "4": 0.3589,
+    "5": 0.3489,
+    "6": 0.3522,
+    "7": 0.2894,
+    "8": 0.2386
+  },
+  "inertias": {
+    "2": 22.56,
+    "3": 14.16,
+    "4": 9.94,
+    "5": 6.69,
+    "6": 4.27,
+    "7": 3.07,
+    "8": 2.25
+  },
+  "pca_variance": [
+    75.5,
+    18.9
+  ]
+}

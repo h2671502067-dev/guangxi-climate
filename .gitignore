@@ -1,0 +1,24 @@
+# Node
+node_modules/
+dist/
+运行代码/website/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# 分析缓存与日志（由脚本重新生成）
+运行代码/output/analysis_results.pkl
+运行代码/output/sarima_cache.pkl
+运行代码/output/sarima_cache_expanded.pkl
+运行代码/main_run.log
+运行代码/output.zip
+运行代码/output/screenshot-*.png
+运行代码/screenshot-*.png
+
+# 文档（不需要上传到 GitHub）
+*.docx
+
+# 系统文件
+.DS_Store
+Thumbs.db

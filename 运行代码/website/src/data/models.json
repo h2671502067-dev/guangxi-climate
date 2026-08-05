@@ -1,0 +1,139 @@
+{
+  "models": [
+    {
+      "name": "TCN",
+      "avg_rmse": 1.491,
+      "min_rmse": 1.145,
+      "avg_mae": 1.26,
+      "avg_r2": 0.9273
+    },
+    {
+      "name": "LSTM",
+      "avg_rmse": 1.385,
+      "min_rmse": 0.956,
+      "avg_mae": 1.123,
+      "avg_r2": 0.9368
+    },
+    {
+      "name": "GRU",
+      "avg_rmse": 1.505,
+      "min_rmse": 1.036,
+      "avg_mae": 1.248,
+      "avg_r2": 0.927
+    },
+    {
+      "name": "Transformer",
+      "avg_rmse": 1.941,
+      "min_rmse": 1.039,
+      "avg_mae": 1.572,
+      "avg_r2": 0.8714
+    }
+  ],
+  "tcn_ind": [
+    1.496,
+    1.28,
+    1.396,
+    1.687,
+    1.723,
+    1.657,
+    1.543,
+    1.145
+  ],
+  "tcn_transfer": [
+    1.772,
+    0.889,
+    0.972,
+    1.485,
+    1.795,
+    1.673,
+    1.461,
+    1.3
+  ],
+  "station_cn": [
+    "百色",
+    "北海",
+    "防城港",
+    "桂林",
+    "河池",
+    "柳州",
+    "南宁",
+    "梧州"
+  ],
+  "per_city": [
+    {
+      "city": "百色",
+      "model": "GRU",
+      "strategy": "独立训练",
+      "rmse": 1.412,
+      "r2": 0.9373
+    },
+    {
+      "city": "北海",
+      "model": "TCN",
+      "strategy": "迁移学习",
+      "rmse": 0.889,
+      "r2": 0.9637
+    },
+    {
+      "city": "防城港",
+      "model": "TCN",
+      "strategy": "迁移学习",
+      "rmse": 0.972,
+      "r2": 0.9617
+    },
+    {
+      "city": "桂林",
+      "model": "TCN",
+      "strategy": "迁移学习",
+      "rmse": 1.485,
+      "r2": 0.9487
+    },
+    {
+      "city": "河池",
+      "model": "LSTM",
+      "strategy": "独立训练",
+      "rmse": 1.42,
+      "r2": 0.9454
+    },
+    {
+      "city": "柳州",
+      "model": "LSTM",
+      "strategy": "独立训练",
+      "rmse": 1.497,
+      "r2": 0.9407
+    },
+    {
+      "city": "南宁",
+      "model": "GRU",
+      "strategy": "独立训练",
+      "rmse": 1.406,
+      "r2": 0.9273
+    },
+    {
+      "city": "梧州",
+      "model": "TCN",
+      "strategy": "独立训练",
+      "rmse": 1.145,
+      "r2": 0.9496
+    }
+  ],
+  "benchmarks": [
+    {
+      "name": "SARIMA",
+      "rmse": 1.052,
+      "r2": 0.964
+    },
+    {
+      "name": "XGBoost",
+      "rmse": 0.726,
+      "r2": 0.9823
+    },
+    {
+      "name": "OLS",
+      "rmse": 0.131,
+      "r2": 0.9994
+    }
+  ],
+  "avg_rmse": 1.316,
+  "avg_r2": 0.9432
+}

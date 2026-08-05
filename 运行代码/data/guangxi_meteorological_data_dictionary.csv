@@ -1,0 +1,120 @@
+﻿文件名,变量名,数据来源,说明
+guangxi_ground_meteorology_monthly.csv,station,NASA POWER,站点名称，广西8个代表性城市
+guangxi_ground_meteorology_monthly.csv,longitude,NASA POWER,经度
+guangxi_ground_meteorology_monthly.csv,latitude,NASA POWER,纬度
+guangxi_ground_meteorology_monthly.csv,year,NASA POWER,年份
+guangxi_ground_meteorology_monthly.csv,month,NASA POWER,月份
+guangxi_ground_meteorology_monthly.csv,date,NASA POWER,日期，格式YYYY-MM
+guangxi_ground_meteorology_monthly.csv,气温_2m_℃,NASA POWER,2m高度气温月均值
+guangxi_ground_meteorology_monthly.csv,最高气温_℃,NASA POWER,月内最高气温统计值（NASA POWER T2M_MAX），反映该月高温极端程度
+guangxi_ground_meteorology_monthly.csv,最低气温_℃,NASA POWER,月内最低气温统计值（NASA POWER T2M_MIN），反映该月低温极端程度
+guangxi_ground_meteorology_monthly.csv,气温日较差_℃,NASA POWER,月均日温差（NASA POWER T2M_RANGE），日最高与日最低温差月平均
+guangxi_ground_meteorology_monthly.csv,露点温度_℃,NASA POWER,露点温度月均值
+guangxi_ground_meteorology_monthly.csv,地表温度_℃,NASA POWER,地表温度月均值
+guangxi_ground_meteorology_monthly.csv,气压_kPa,NASA POWER,地面气压月均值
+guangxi_ground_meteorology_monthly.csv,风速_10m_ms,NASA POWER,10m高度风速月均值
+guangxi_ground_meteorology_monthly.csv,最大风速_10m_ms,NASA POWER,10m高度最大风速月均值
+guangxi_ground_meteorology_monthly.csv,风向_10m_度,NASA POWER,10m高度风向月均值，0=北 90=东
+guangxi_ground_meteorology_monthly.csv,风速_50m_ms,NASA POWER,50m高度风速月均值
+guangxi_ground_meteorology_monthly.csv,相对湿度_%,NASA POWER,相对湿度月均值
+guangxi_ground_meteorology_monthly.csv,比湿_gkg,NASA POWER,比湿月均值
+guangxi_ground_meteorology_monthly.csv,降水量_mm_day,NASA POWER,月均日降水量
+guangxi_ground_meteorology_monthly.csv,短波辐射_全天空_kWhm2day,NASA POWER,全天空条件下短波辐射月均值
+guangxi_ground_meteorology_monthly.csv,长波辐射_全天空_kWhm2day,NASA POWER,全天空条件下长波辐射月均值
+guangxi_ground_meteorology_monthly.csv,光合有效辐射_kWhm2day,NASA POWER,光合有效辐射月均值，单位kWh/m²/day（NASA POWER ALLSKY_PAR_TTL）
+guangxi_ground_meteorology_monthly.csv,UVA辐射_kWhm2day,NASA POWER,UVA(315-400nm)辐射月均值，单位kWh/m²/day（NASA POWER ALLSKY_UVA）
+guangxi_ground_meteorology_monthly.csv,UVB辐射_kWhm2day,NASA POWER,UVB(280-315nm)辐射月均值，单位kWh/m²/day（NASA POWER ALLSKY_UVB）
+guangxi_ground_meteorology_monthly.csv,紫外线指数,NASA POWER,紫外线指数月均值
+guangxi_ground_meteorology_monthly.csv,短波辐射_晴空_kWhm2day,NASA POWER,晴空条件下短波辐射月均值
+guangxi_ground_meteorology_monthly.csv,长波辐射_晴空_kWhm2day,NASA POWER,晴空条件下长波辐射月均值
+guangxi_ground_meteorology_monthly.csv,总云量_%,NASA POWER,总云量月均值
+guangxi_ground_meteorology_monthly.csv,蒸散发_mm_day,NASA POWER,月均日蒸散发量
+guangxi_ground_meteorology_monthly.csv,陆地蒸发_mm_day,NASA POWER,月均日陆地蒸发量
+guangxi_ground_meteorology_monthly.csv,根区土壤湿度_01,NASA POWER,根区土壤湿度，0-1无量纲
+guangxi_ground_meteorology_monthly.csv,剖面土壤湿度_01,NASA POWER,剖面土壤湿度，0-1无量纲
+guangxi_ground_meteorology_monthly.csv,表层土壤湿度_01,NASA POWER,表层土壤湿度，0-1无量纲
+guangxi_ground_meteorology_monthly.csv,高温指数_℃,NASA POWER,高温指数月均值，体感温度指标
+guangxi_ground_meteorology_monthly.csv,风寒指数_℃,NASA POWER,风寒指数月均值，体感温度指标
+guangxi_upper_air_monthly.csv,station,NCEP/NCAR R1,站点名称，广西8个代表性城市
+guangxi_upper_air_monthly.csv,longitude,NCEP/NCAR R1,经度，NCEP最近格点（2.5°分辨率）
+guangxi_upper_air_monthly.csv,latitude,NCEP/NCAR R1,纬度，NCEP最近格点（2.5°分辨率）
+guangxi_upper_air_monthly.csv,year,NCEP/NCAR R1,年份
+guangxi_upper_air_monthly.csv,month,NCEP/NCAR R1,月份
+guangxi_upper_air_monthly.csv,date,NCEP/NCAR R1,日期，格式YYYY-MM
+guangxi_upper_air_monthly.csv,气压层_hPa,NCEP/NCAR R1,气压层，共6层：1000/925/850/700/500/200 hPa
+guangxi_upper_air_monthly.csv,温度_原始值_℃,NCEP/NCAR R1,NCEP原始温度值（摄氏度），各气压层月均
+guangxi_upper_air_monthly.csv,位势高度_m,NCEP/NCAR R1,位势高度，各气压层月均
+guangxi_upper_air_monthly.csv,纬向风_ms,NCEP/NCAR R1,纬向风(U风)，东向为正，各气压层月均
+guangxi_upper_air_monthly.csv,经向风_ms,NCEP/NCAR R1,经向风(V风)，北向为正，各气压层月均
+guangxi_upper_air_monthly.csv,比湿_gkg,NCEP/NCAR R1,比湿，各气压层月均
+guangxi_upper_air_monthly.csv,垂直速度_Pas,NCEP/NCAR R1,垂直速度(Omega)，下沉为正，各气压层月均
+guangxi_upper_air_monthly.csv,风速_ms,NCEP/NCAR R1,风速，由U/V风计算得到
+guangxi_upper_air_monthly.csv,风向_度,NCEP/NCAR R1,风向，由U/V风计算得到，0=北 90=东
+guangxi_upper_air_monthly.csv,温度_℃,NCEP/NCAR R1,温度（同温度_原始值_℃），各气压层月均
+guangxi_upper_air_monthly.csv,相对湿度_%,NCEP/NCAR R1,相对湿度，由温度和比湿计算得到
+guangxi_drought_indices_monthly.csv,station,计算得到（基于NASA POWER数据）,站点名称，广西8个代表性城市
+guangxi_drought_indices_monthly.csv,longitude,计算得到（基于NASA POWER数据）,经度
+guangxi_drought_indices_monthly.csv,latitude,计算得到（基于NASA POWER数据）,纬度
+guangxi_drought_indices_monthly.csv,year,计算得到（基于NASA POWER数据）,年份
+guangxi_drought_indices_monthly.csv,month,计算得到（基于NASA POWER数据）,月份
+guangxi_drought_indices_monthly.csv,date,计算得到（基于NASA POWER数据）,日期，格式YYYY-MM
+guangxi_drought_indices_monthly.csv,月降水量_mm,计算得到（基于NASA POWER数据）,月总降水量，由日降水量乘以当月天数得到
+guangxi_drought_indices_monthly.csv,月PET_mm,计算得到（基于NASA POWER数据）,月潜在蒸散发，Thornthwaite方法计算
+guangxi_drought_indices_monthly.csv,SPI_1m,计算得到（基于NASA POWER数据）,SPI标准降水指数-1个月尺度，Gamma分布拟合，正值偏湿负值偏干
+guangxi_drought_indices_monthly.csv,SPI_3m,计算得到（基于NASA POWER数据）,SPI标准降水指数-3个月尺度，Gamma分布拟合
+guangxi_drought_indices_monthly.csv,SPI_6m,计算得到（基于NASA POWER数据）,SPI标准降水指数-6个月尺度，Gamma分布拟合
+guangxi_drought_indices_monthly.csv,SPI_12m,计算得到（基于NASA POWER数据）,SPI标准降水指数-12个月尺度，Gamma分布拟合
+guangxi_drought_indices_monthly.csv,SPEI_1m,计算得到（基于NASA POWER数据）,SPEI标准降水蒸散发指数-1个月尺度，Pearson III分布拟合
+guangxi_drought_indices_monthly.csv,SPEI_3m,计算得到（基于NASA POWER数据）,SPEI标准降水蒸散发指数-3个月尺度，Pearson III分布拟合
+guangxi_drought_indices_monthly.csv,SPEI_6m,计算得到（基于NASA POWER数据）,SPEI标准降水蒸散发指数-6个月尺度，Pearson III分布拟合
+guangxi_drought_indices_monthly.csv,SPEI_12m,计算得到（基于NASA POWER数据）,SPEI标准降水蒸散发指数-12个月尺度，Pearson III分布拟合
+guangxi_ndvi_monthly.csv,station,MODIS MOD13Q1,站点名称，广西8个代表性城市
+guangxi_ndvi_monthly.csv,longitude,MODIS MOD13Q1,经度
+guangxi_ndvi_monthly.csv,latitude,MODIS MOD13Q1,纬度
+guangxi_ndvi_monthly.csv,year,MODIS MOD13Q1,年份
+guangxi_ndvi_monthly.csv,month,MODIS MOD13Q1,月份
+guangxi_ndvi_monthly.csv,date,MODIS MOD13Q1,日期，格式YYYY-MM
+guangxi_ndvi_monthly.csv,NDVI,MODIS MOD13Q1,归一化植被指数，MOD13Q1产品250m分辨率16天数据月均，范围-0.2~1.0
+guangxi_upper_air_derived_monthly.csv,station,计算得到（基于NCEP/NCAR R1数据）,站点名称，广西8个代表性城市
+guangxi_upper_air_derived_monthly.csv,longitude,计算得到（基于NCEP/NCAR R1数据）,经度，NCEP最近格点
+guangxi_upper_air_derived_monthly.csv,latitude,计算得到（基于NCEP/NCAR R1数据）,纬度，NCEP最近格点
+guangxi_upper_air_derived_monthly.csv,year,计算得到（基于NCEP/NCAR R1数据）,年份
+guangxi_upper_air_derived_monthly.csv,month,计算得到（基于NCEP/NCAR R1数据）,月份
+guangxi_upper_air_derived_monthly.csv,date,计算得到（基于NCEP/NCAR R1数据）,日期，格式YYYY-MM
+guangxi_upper_air_derived_monthly.csv,比湿_gkg_500hPa,计算得到（基于NCEP/NCAR R1数据）,比湿，500hPa气压层月均，单位g/kg
+guangxi_upper_air_derived_monthly.csv,比湿_gkg_700hPa,计算得到（基于NCEP/NCAR R1数据）,比湿，700hPa气压层月均，单位g/kg
+guangxi_upper_air_derived_monthly.csv,比湿_gkg_850hPa,计算得到（基于NCEP/NCAR R1数据）,比湿，850hPa气压层月均，单位g/kg
+guangxi_upper_air_derived_monthly.csv,比湿_gkg_925hPa,计算得到（基于NCEP/NCAR R1数据）,比湿，925hPa气压层月均，单位g/kg
+guangxi_upper_air_derived_monthly.csv,比湿_gkg_1000hPa,计算得到（基于NCEP/NCAR R1数据）,比湿，1000hPa气压层月均，单位g/kg
+guangxi_upper_air_derived_monthly.csv,水汽通量_kg_ms_500hPa,计算得到（基于NCEP/NCAR R1数据）,水汽通量，500hPa气压层，由比湿×风速/重力加速度计算，单位kg/(m·s)
+guangxi_upper_air_derived_monthly.csv,水汽通量_kg_ms_700hPa,计算得到（基于NCEP/NCAR R1数据）,水汽通量，700hPa气压层，由比湿×风速/重力加速度计算，单位kg/(m·s)
+guangxi_upper_air_derived_monthly.csv,水汽通量_kg_ms_850hPa,计算得到（基于NCEP/NCAR R1数据）,水汽通量，850hPa气压层，由比湿×风速/重力加速度计算，单位kg/(m·s)
+guangxi_upper_air_derived_monthly.csv,水汽通量_kg_ms_925hPa,计算得到（基于NCEP/NCAR R1数据）,水汽通量，925hPa气压层，由比湿×风速/重力加速度计算，单位kg/(m·s)
+guangxi_upper_air_derived_monthly.csv,水汽通量_kg_ms_1000hPa,计算得到（基于NCEP/NCAR R1数据）,水汽通量，1000hPa气压层，由比湿×风速/重力加速度计算，单位kg/(m·s)
+guangxi_upper_air_derived_monthly.csv,温度_℃_200hPa,计算得到（基于NCEP/NCAR R1数据）,温度，200hPa气压层月均，单位℃
+guangxi_upper_air_derived_monthly.csv,温度_℃_500hPa,计算得到（基于NCEP/NCAR R1数据）,温度，500hPa气压层月均，单位℃
+guangxi_upper_air_derived_monthly.csv,温度_℃_700hPa,计算得到（基于NCEP/NCAR R1数据）,温度，700hPa气压层月均，单位℃
+guangxi_upper_air_derived_monthly.csv,温度_℃_850hPa,计算得到（基于NCEP/NCAR R1数据）,温度，850hPa气压层月均，单位℃
+guangxi_upper_air_derived_monthly.csv,温度_℃_925hPa,计算得到（基于NCEP/NCAR R1数据）,温度，925hPa气压层月均，单位℃
+guangxi_upper_air_derived_monthly.csv,温度_℃_1000hPa,计算得到（基于NCEP/NCAR R1数据）,温度，1000hPa气压层月均，单位℃
+guangxi_upper_air_derived_monthly.csv,露点温度_℃_500hPa,计算得到（基于NCEP/NCAR R1数据）,露点温度，500hPa气压层，由温度和相对湿度计算，单位℃
+guangxi_upper_air_derived_monthly.csv,露点温度_℃_700hPa,计算得到（基于NCEP/NCAR R1数据）,露点温度，700hPa气压层，由温度和相对湿度计算，单位℃
+guangxi_upper_air_derived_monthly.csv,露点温度_℃_850hPa,计算得到（基于NCEP/NCAR R1数据）,露点温度，850hPa气压层，由温度和相对湿度计算，单位℃
+guangxi_upper_air_derived_monthly.csv,露点温度_℃_925hPa,计算得到（基于NCEP/NCAR R1数据）,露点温度，925hPa气压层，由温度和相对湿度计算，单位℃
+guangxi_upper_air_derived_monthly.csv,露点温度_℃_1000hPa,计算得到（基于NCEP/NCAR R1数据）,露点温度，1000hPa气压层，由温度和相对湿度计算，单位℃
+guangxi_upper_air_derived_monthly.csv,风向_度_200hPa,计算得到（基于NCEP/NCAR R1数据）,风向，200hPa气压层，由U/V风计算，0=北 90=东，单位度
+guangxi_upper_air_derived_monthly.csv,风向_度_500hPa,计算得到（基于NCEP/NCAR R1数据）,风向，500hPa气压层，由U/V风计算，0=北 90=东，单位度
+guangxi_upper_air_derived_monthly.csv,风向_度_700hPa,计算得到（基于NCEP/NCAR R1数据）,风向，700hPa气压层，由U/V风计算，0=北 90=东，单位度
+guangxi_upper_air_derived_monthly.csv,风向_度_850hPa,计算得到（基于NCEP/NCAR R1数据）,风向，850hPa气压层，由U/V风计算，0=北 90=东，单位度
+guangxi_upper_air_derived_monthly.csv,风向_度_925hPa,计算得到（基于NCEP/NCAR R1数据）,风向，925hPa气压层，由U/V风计算，0=北 90=东，单位度
+guangxi_upper_air_derived_monthly.csv,风向_度_1000hPa,计算得到（基于NCEP/NCAR R1数据）,风向，1000hPa气压层，由U/V风计算，0=北 90=东，单位度
+guangxi_upper_air_derived_monthly.csv,风速_ms_200hPa,计算得到（基于NCEP/NCAR R1数据）,风速，200hPa气压层，由U/V风计算，单位m/s
+guangxi_upper_air_derived_monthly.csv,风速_ms_500hPa,计算得到（基于NCEP/NCAR R1数据）,风速，500hPa气压层，由U/V风计算，单位m/s
+guangxi_upper_air_derived_monthly.csv,风速_ms_700hPa,计算得到（基于NCEP/NCAR R1数据）,风速，700hPa气压层，由U/V风计算，单位m/s
+guangxi_upper_air_derived_monthly.csv,风速_ms_850hPa,计算得到（基于NCEP/NCAR R1数据）,风速，850hPa气压层，由U/V风计算，单位m/s
+guangxi_upper_air_derived_monthly.csv,风速_ms_925hPa,计算得到（基于NCEP/NCAR R1数据）,风速，925hPa气压层，由U/V风计算，单位m/s
+guangxi_upper_air_derived_monthly.csv,风速_ms_1000hPa,计算得到（基于NCEP/NCAR R1数据）,风速，1000hPa气压层，由U/V风计算，单位m/s
+guangxi_upper_air_derived_monthly.csv,K指数_℃,计算得到（基于NCEP/NCAR R1数据）,K指数，强对流预报指标，K>30强对流可能 K>20对流可能
+guangxi_upper_air_derived_monthly.csv,Showalter指数_℃,计算得到（基于NCEP/NCAR R1数据）,Showalter指数，大气稳定度指标，SI<0不稳定 SI<-3强不稳定
+guangxi_upper_air_derived_monthly.csv,LCL高度_m_850hPa,计算得到（基于NCEP/NCAR R1数据）,抬升凝结高度，基于850hPa气块计算
+guangxi_upper_air_derived_monthly.csv,整层水汽通量_kg_ms,计算得到（基于NCEP/NCAR R1数据）,整层水汽通量，850-200hPa垂直积分

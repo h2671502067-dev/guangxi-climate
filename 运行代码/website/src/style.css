@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f7fbff;
+  --bg-alt: #eef5fd;
+  --surface: rgba(255, 255, 255, 0.75);
+  --line: rgba(30, 41, 59, 0.1);
+  --text: #1e293b;
+  --text-dim: #64748b;
+  --accent: #42a5f5;
+  --accent-2: #ff9848;
+}
+
+@theme {
+  --color-ink: #f7fbff;
+  --color-ink-alt: #eef5fd;
+  --color-surface: rgba(255, 255, 255, 0.75);
+  --color-line: rgba(30, 41, 59, 0.1);
+  --color-ice: #1e293b;
+  --color-dim: #64748b;
+  --color-sky: #42a5f5;
+  --color-amber: #ff9848;
+  --color-cool: #5ccfe6;
+  --font-sans: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* 防止点击文本时出现文本编辑光标 */
+* {
+  cursor: default;
+}
+
+a,
+button,
+[role='button'],
+input,
+select,
+textarea,
+[class*='cursor-'] {
+  cursor: pointer;
+}
+
+input,
+textarea {
+  cursor: text;
+}
+
+code,
+pre {
+  cursor: default;
+}
+
+code {
+  user-select: none;
+}
+
+/* 页面切换淡入 */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* 滚动显现 */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Logo 动画 */
+.logo-sun-rays {
+  transform-origin: 10.5px 10px;
+  animation: logo-spin 20s linear infinite;
+}
+@keyframes logo-spin {
+  to { transform: rotate(360deg); }
+}
+.logo-cloud {
+  animation: logo-cloud 3s ease-in-out infinite;
+}
+@keyframes logo-cloud {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(1.2px); }
+}
+
+/* 导航云朵按钮 */
+.nav-cloud {
+  border-radius: 16px 16px 10px 10px;
+  position: relative;
+  background: linear-gradient(135deg, rgba(66,165,245,0.05), rgba(66,165,245,0.02));
+  border: 1px solid rgba(66,165,245,0.1);
+}
+.nav-cloud:hover {
+  background: linear-gradient(135deg, rgba(66,165,245,0.12), rgba(66,165,245,0.05));
+  border-color: rgba(66,165,245,0.2);
+}
+.nav-cloud.nav-active {
+  background: linear-gradient(135deg, #64b5f6, #42a5f5);
+  border-color: transparent;
+  color: #ffffff;
+  box-shadow: 0 4px 12px -2px rgba(66,165,245,0.3);
+}
+.nav-cloud::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 22%;
+  width: 38%;
+  height: 20px;
+  border-radius: 50% 50% 0 0;
+  background: inherit;
+  z-index: -1;
+}
+.nav-cloud::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 8%;
+  width: 24%;
+  height: 14px;
+  border-radius: 50% 50% 0 0;
+  background: inherit;
+  z-index: -1;
+}
